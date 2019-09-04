@@ -1,0 +1,97 @@
+{
+    "stevilo_strank": 9,
+    "stranke": [
+        {
+            "index": 1,
+            "aktivna": true,
+            "ime": "Natali",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 2,
+            "aktivna": true,
+            "ime": "Catalino",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 3,
+            "aktivna": true,
+            "ime": "Mariscal",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 4,
+            "aktivna": true,
+            "ime": "Imbra_Coco",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 5,
+            "aktivna": true,
+            "ime": "Franklin_Chorrera",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 6,
+            "aktivna": true,
+            "ime": "Yovani",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 7,
+            "aktivna": true,
+            "ime": "Gaby",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 8,
+            "aktivna": true,
+            "ime": "Cativa",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        },
+        {
+            "index": 9,
+            "aktivna": true,
+            "ime": "Christian_Sabanita",
+            "telefon": "",
+            "e-mail": "",
+            "boniranje": "A",
+            "narocila": [],
+            "nakupi": []
+        }
+    ],
+    "stare_stranke": [
+    ]
+}

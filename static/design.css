@@ -1,0 +1,301 @@
+body{
+    margin: 0%;
+    padding: 0%
+}
+/* ######################################################################################### */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    height:11.5vmin
+  }
+  
+.navbar a {
+    float: left;
+    font-size: 5vmin;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height:100%
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    height:100%
+  }
+  
+.dropdown .dropbtn {
+    font-size: 5vmin; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.show {
+    display: block;
+  }
+
+/* ######################################################################################### */
+
+div.gumbi{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:96%;
+    height:80%;
+    top:16%;
+    left:2%
+}
+
+
+
+/* ######################################################################################### */
+
+div.dimenzija{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size:10vmin;
+    position:absolute;
+    width:50%;
+    height:16%;
+    top:4%;
+    left:25%
+}
+::-ms-clear {
+    display: none;
+ }
+
+div.text_box{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:50%;
+    height:40%;
+    top:20%;
+    left:25%
+}
+
+div.gumba{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:60%;
+    height:22%;
+    top:62%;
+    left:20%
+}
+
+div.yellow_gumb{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:49%;
+    height:100%;
+    top:0%;
+    left:0%
+}
+
+div.white_gumb{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:49%;
+    height:100%;
+    top:0%;
+    left:51%
+}
+
+div.spodnja_vrstica{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:50%;
+    height:10%;
+    top:88%;
+    left:25%
+}
+
+div.nazaj{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:45%;
+    height:100%;
+    top:0%;
+    left:0%
+}
+
+div.preklici{
+    margin: 0%;
+    padding: 0%;
+    position:absolute;
+    width:45%;
+    height:100%;
+    top:0%;
+    left:55%
+}
+
+/* ######################################################################################### */
+
+div.okno{
+  border-style: solid;
+  margin: 0%;
+  padding: 0%;
+  position:absolute;
+  width:80%;
+  height:15%;
+  top:15%;
+  left:10%
+}
+
+
+div.delovno_okno{
+  margin: 0%;
+  padding: 0%;
+  position:absolute;
+  width:80%;
+  height:5%;
+  top:35%;
+  left:10%
+}
+
+div.vnosi{
+  margin: 0%;
+  padding: 0%;
+  position:absolute;
+  width:80%;;
+  top:40%;
+  left:10%;
+}
+
+/* ######################################################################################### */
+table.pdf_table{
+  width:100%;
+  border-spacing:0;
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+
+table.pregled_prometa_table{
+  position:absolute;
+  width:60%;
+  left:20%;
+  top:30%;
+  border-spacing:0;
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+table.pregled_prometa_table td{
+  font-size: 4vmin;
+  text-align: center;
+  padding: 1vmin
+}
+table.tabela_zaloge{
+  position:absolute;
+  width:60%;
+  left:20%;
+  top:25%;
+  border-spacing:0;
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+
+table.tabela_zaloge th{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table.tabela_zaloge td{
+  font-size: 3vmin;
+  text-align: center;
+  padding: 1vmin;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+table.tabela_zaloge td.dimenzija{
+  font-size: 4vmin;
+  text-align: center;
+  padding: 1vmin;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+
+table.tabela_baz{
+  position:absolute;
+  width:90%;
+  left:5%;
+  top:15%;
+  border-spacing: 0
+}
+
+table.tabela_vnosov_arhiva{
+  position:absolute;
+  width:60%;
+  left:20%;
+  top:15%;
+  border-spacing: 0
+}
+
+table.tabela_vnosov{
+  position:absolute;
+  width:60%;
+  left:20%;
+  top:45%;
+  border-spacing: 0
+}
+
+th{
+  font-size: 5vmin;
+  padding: 1vmin
+  
+}
+
+td{
+  font-size: 5vmin;
+  text-align: center;
+  padding: 1vmin
+}
+
+td.uredi{
+  padding:0%;
+  margin:0%
+}
+
