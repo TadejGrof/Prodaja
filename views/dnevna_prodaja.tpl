@@ -191,7 +191,6 @@
         function Dodaj(){
             %radiusi = program.vrni_vse_radiuse()
             SkrijGumbe();
-            SpremeniDimenzije(2);
             %for n in range(len(radiusi)):
                 var Buttonid = "{{'Button' + str(n)}}"
                 document.getElementById(Buttonid).style.visibility = "visible";       
@@ -226,67 +225,7 @@
                 document.getElementById(Buttonid).innerHTML = widthselect[i + 1].value;
             };
         };
-        function SpremeniDimenzije(n){
-            var i
-            if (n == 1) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "98%";    
-                    document.getElementById(Buttonid).style.height = "100%";
-                    document.getElementById(Buttonid).style.marginLeft = "1%";
-                    document.getElementById(Buttonid).style.marginRight = "1%";           
-                };
-            } else if ( n == 2 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "48%";    
-                    document.getElementById(Buttonid).style.height = "100%";
-                    document.getElementById(Buttonid).style.marginLeft = "1%";
-                    document.getElementById(Buttonid).style.marginRight = "1%";           
-                };
-            } else if ( n < 5 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "48%";    
-                    document.getElementById(Buttonid).style.height = "48%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-            } else if ( n < 7 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "30%";    
-                    document.getElementById(Buttonid).style.height = "48%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-            } else if ( n < 10 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "30%";    
-                    document.getElementById(Buttonid).style.height = "30%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-            } else if ( n < 13 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "23%";    
-                    document.getElementById(Buttonid).style.height = "30%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-            } else if ( n < 17 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "23%";    
-                    document.getElementById(Buttonid).style.height = "23%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-            } else if ( n < 21 ) {
-                for (i = 0; i < n; i++) {
-                    var Buttonid = "Button" + i.toString();
-                    document.getElementById(Buttonid).style.width = "18%";    
-                    document.getElementById(Buttonid).style.height = "23%";
-                    document.getElementById(Buttonid).style.margin = "1%";          
-                };
-        }
+        
     </script>
 </body>
 </html>
